@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.largura_limitada {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo, .roda_pe {
+    width: 100%;
+    padding: 16px 0;
+    background-color: #FF8014;
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.area {
+    width: calc(100% - 70px);
+    margin: 20px 40px;
+}
+
+
+

@@ -29,8 +29,40 @@ span {
 
 .area {
     width: calc(100% - 70px);
-    margin: 20px 40px;
+    margin: 20px 35px;
 }
 
+h3 {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 7px; 
+}
 
+.paragrafo {
+    overflow-y: scroll;
+    height: 315px;
+}
 
+p {
+    padding: 7.5px 0;
+    line-height: 18px;
+}
+
+.titulo {
+    padding: 5px 0;
+}
+
+img {
+    width: 350px;
+    height: 230px;
+    margin: 0 2px;
+
+}
+
+.cinco_imagem {
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+
+}
